@@ -10,7 +10,7 @@ geometry:
     -   inner=4cm
     -   outer=3cm
     -   vmargin=3cm
-    -   twoside
+    # -   twoside  # descomentar para impresión ambas caras
 mainfont: Times New Roman
 institution: Universidad Técnica Federico Santa María
 academic_unit: Departamento de Jirafología
@@ -22,23 +22,21 @@ degree: Ingeniero Civil de Jirafas Levitantes
 professor: Juan Josefo Jara Jote
 month: Enero
 year: 2015
-advertencia: >
-    Material de referencia, su uso no involucra
-    responsabilidad del autor o de la Institución.
+advertencia: true
 numbersections: true
 toc-depth: 1
-agradecimientos: src/preambulo/agradecimientos.tex
-dedicatoria: src/preambulo/dedicatoria.tex
-resumen: src/preambulo/resumen.tex
-abstract: src/preambulo/abstract.tex
+agradecimientos: src/0-preambulo/agradecimientos.tex
+dedicatoria: src/0-preambulo/dedicatoria.tex
+resumen: src/0-preambulo/resumen.tex
+abstract: src/0-preambulo/abstract.tex
 definiciones: src/definiciones
 bibliografia: src/bibliografia.tex
 main_content:
-    -   src/introduccion/introduccion.tex
-    -   src/cap1/cap1.tex
-    -   src/cap2/cap2.tex
-    -   src/cap3/cap3.tex
-    -   src/cap4/cap4.tex
+    -   src/1-introduccion/introduccion.tex
+    -   src/2-estado-del-arte/estado-del-arte.tex
+    -   src/3-propuesta/propuesta.tex
+    -   src/4-resultados/resultados.tex
+    -   src/5-conclusiones/conclusiones.tex
 anexos:
     -   src/anexos/anexoA.tex
 ...
